@@ -1,0 +1,11 @@
+.errorBox {
+    border: 2px solid red;
+}
+.errorMsg {
+    color: red;
+    display: none;
+}
+
+.showError {
+    display: block;
+}
