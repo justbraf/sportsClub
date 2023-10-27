@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+    let signOutBtn = document.querySelector(".js-signOut")
+    signOutBtn.addEventListener("click", () => {
+        signOut()
+    })
+    isSignedIn()
     let myForm = document.querySelector("#js-register")
     let inputBoxes = document.querySelectorAll(".input-group")
     myForm.addEventListener("submit", (event) => {

@@ -12,3 +12,6 @@
     width: 50px;
     border-radius: 45%;
 }
+.signedOut {
+    display: none;
+}
