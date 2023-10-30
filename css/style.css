@@ -15,3 +15,13 @@
 .signedOut {
     display: none;
 }
+.fadable{
+    opacity: 1;
+    transition: .4s;
+}
+.fade {
+    opacity: 0;
+}
+.hidden{
+    display: none;
+}
